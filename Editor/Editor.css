@@ -1,0 +1,481 @@
+body{
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+img{
+    width: 25px;
+    height: 25px;
+    padding-right: 7px;
+    padding-top: 2px;
+}
+.topSocial{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    padding: 0px;
+    margin: 30px;
+    gap: 100px;
+    font-size: 20px;
+    padding-left: 70px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+
+}
+.topLogo{
+    padding-left: 275px;
+    justify-content: flex-end;
+    margin-left: 300px;
+   
+}
+.topLogo1{
+    padding-left: 12px;
+}
+.l{
+    padding: 0;
+    margin: 0;
+}
+hr{
+    border-color: rgb(219, 214, 214);
+    border-top-style: dotted;
+}
+.nav{
+    display: flex;
+    list-style:none;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 20px;
+    padding-left: 0px;
+    margin: 5px;
+}
+.inNav{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+
+}
+.inNav1{
+    padding: 10px;
+}
+.try{
+    background-color: green;
+    border-radius: 10px;
+    width: 170px;
+    padding: 10px;
+    margin-left: 150px;
+    padding-left: 25px;
+    color: white;
+    font-weight: bold;
+}
+.comLogo{
+    width:40px;
+    height: 40px;
+}
+.img1{
+    width: 100%;
+    height: 700px;
+}
+.img_1{
+    width: 100%;
+    height:100%
+    
+}
+.img_12{
+    position:absolute;
+    height: 391px;
+    width: 40%;
+    margin-top: 2px;
+    padding: 170px;
+    color: white;
+    font-size: 30px;
+    padding-left: 120px;
+    padding-right: 20px;
+    background:linear-gradient(to right,rgb(0, 28, 63) 75%, transparent);
+
+}
+.img_12h{
+    font-family:sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    margin-bottom: 9px;
+    font-weight: normal;
+}
+.img_12p{
+    font-size: 50px;
+    margin-top: 0px;
+    padding: 1px;
+    font-weight: bold;
+    font-family: arial;
+}
+.calPrice{
+    background-color: white;
+    border-radius: 10px;
+    width: 190px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 25px;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.freeSamp{
+    background-color: green;
+    border-radius: 10px;
+    width: 190px;
+    height: 60px;
+    padding: 10px;
+    padding-left: 25px;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+.img21{
+    width:390px;
+    margin-top: 240px;
+    margin-left: 100px;
+}
+.img22{
+    width: 600px;
+    height: 600px;
+}
+.h61{
+    color: green;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+.h31{
+    color: rgba(18, 0, 57, 0.89);
+    font-family: arial;
+}
+.p1{
+    color: rgba(128, 128, 128, 0.652);
+}
+.get{
+    color: white;
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.img22{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 140px;
+    color: white;
+
+}
+.img221{
+    width: 25%;
+    height: 500px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.img222{
+    width: 50px;
+    height: 50px;
+}
+.img23{
+    position: absolute;
+    background-color:green;
+    width: 120px;
+    height: 170px;
+    margin-left: 350px;
+    margin-top: 150px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.ser{
+    font-size: 30px;
+    color:green;
+    margin-bottom: 10px;
+    
+}
+.ser1{
+    margin-top: 0px;
+    font-family: arial;
+    color: rgba(15, 3, 50, 0.797);
+
+}
+.services{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    list-style: none;
+}
+.serdiv{
+    width: 21%;
+    background-color: white;
+    border-radius: 10px;
+    height: 440px;
+    margin-left: 90px;
+}
+.serimg{
+    width: 280px;
+    height: 160px;
+    padding: 15px;
+    border-radius: 30px;
+
+
+}
+.div1{
+    padding: 20px;
+    padding-top: 0px;
+}
+.find{
+    display: flex;
+    justify-content:space-around;
+    padding: 0px;
+    margin-top: 20px;
+    list-style: none;
+}
+.findd{
+    margin-right: 137px;
+    color: green;
+}
+.serh{
+    color: rgba(18, 0, 57, 0.89);
+    font-family: arial;
+    font-weight: bolder;
+}
+.serp{
+    color: rgba(128, 128, 128, 0.652);
+    font-family:'Arial Narrow Bold';
+    font-size: 18px;
+
+}
+.view{
+    margin: 50px;
+    width: 170px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+.cprice{
+    text-align: center;
+    background: 
+      linear-gradient(rgba(1, 17, 51, 0.788)), 
+      url('writting.jpg') center/cover;
+    color: white;
+    padding: 60px 20px;
+}
+.ch{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.cp{
+    font-size: 20px;
+}
+.cbut{
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.process{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.prodiv{
+    width: 20%;
+}
+.proimg{
+width: 150px;
+height: 150px;
+padding: 20px;
+border-radius: 50px;
+}
+.proh{
+    font-family: arial;
+    color: rgba(1, 17, 51, 0.788);
+}
+.prop{
+    font-size: 25px;
+}
+
+.img3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin-top: 10px;
+}
+.img31{
+    width:490px;
+    margin-top: 240px;
+    margin-right: 200px;
+
+    
+}
+.img32{
+    width: 600px;
+    height: 600px;
+}
+.h63{
+    color: green;
+    font-family: Calibri;
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+
+}
+.h33{
+    color: rgba(18, 0, 57, 0.89);
+    font-family: arial;
+}
+.p3{
+    font-size: 20px;
+    color: rgba(128, 128, 128, 0.741);
+}
+.find3{
+    color: white;
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.img32{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 140px;
+    color: white;
+}
+.img321{
+    width: 26%;
+    height: 450px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.img322{
+    width: 50px;
+    height: 50px;
+}
+.img33{
+    position: absolute;
+    background-color:rgb(0, 0, 61);
+    width: 150px;
+    height: 170px;
+    margin-left: 390px;
+    margin-top: 360px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial;
+    padding-top: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+.format{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 20px;
+    padding: 20px;
+}
+.forimg{
+    width: 100px;
+    height: 150px;
+    margin: 30px;
+    margin-bottom: 0px;
+   
+}
+.forl{
+    background-color: rgb(221, 219, 219);
+    border-radius: 20px;
+    margin: 30px;
+}
+.forp{
+    text-align: center;
+    font-weight: bold;
+    color: rgba(42, 40, 40, 0.395);;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(0, 28, 63);
+    list-style: none;
+}
+.lastl{
+    width: 350px;
+    margin: 30px;
+    color: white;
+    font-family: arial;
+}
+#message{
+    background-color: aliceblue;
+    width: 250px;
+    height: 50px;
+    margin-bottom: 4px;
+    border-radius: 10px;    
+}
+.send{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.las{
+    background-color:rgb(0, 28, 63) ;
+}
+.line{
+
+    margin-left: 170px;
+    margin-right: 190px;
+}
+.bot{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+    font-weight:300;
+    margin: 0px;
+    padding: 0px;
+    padding: 14px;
+
+}
+.copy{
+    margin-right: 600px;
+}
+.send:hover,.topLogo:hover,.inNav1:hover,.try:hover,.topLogo1:hover,.comLogo:hover,.calPrice:hover,.freeSamp:hover,.get:hover,.h:hover,.view:hover,.cbut:hover,.find3:hover,.forimg:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
